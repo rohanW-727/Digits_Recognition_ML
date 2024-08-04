@@ -91,8 +91,8 @@ const DigitRecognition = () => {
     <div>
       <canvas
         ref={canvasRef}
-        width={28}
-        height={28}
+        width={280}
+        height={280}
         style={{ border: '1px solid black' }}
         onMouseMove={handleMouseDraw}
       />
